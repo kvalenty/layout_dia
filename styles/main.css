@@ -6,12 +6,17 @@ h1 {
   text-decoration: none;
   color: #fff; }
 
-.promo__callback, .nav__link {
+.person-card__name-link, .promo__callback, .nav__link {
   font-size: 13px;
   font-family: Poppins, sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-weight: bold; }
+  font-weight: bold;
+  text-decoration: none; }
+
+.person-card__name-link {
+  font-family: Poppins, sans-serif;
+  text-transform: none; }
 
 .promo__header, .header, .nav__list, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
@@ -24,13 +29,13 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.processes__title, .tagline__title {
+.section-title__title, .tagline__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
 
-.processes__overhead, .tagline__overhead {
+.section-title__overhead, .tagline__overhead, .person-card__position {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -88,12 +93,17 @@ h1 {
   text-decoration: none;
   color: #fff; }
 
-.promo__callback, .nav__link {
+.person-card__name-link, .promo__callback, .nav__link {
   font-size: 13px;
   font-family: Poppins, sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-weight: bold; }
+  font-weight: bold;
+  text-decoration: none; }
+
+.person-card__name-link {
+  font-family: Poppins, sans-serif;
+  text-transform: none; }
 
 .promo__header, .header, .nav__list, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
@@ -106,13 +116,13 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.processes__title, .tagline__title {
+.section-title__title, .tagline__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
 
-.processes__overhead, .tagline__overhead {
+.section-title__overhead, .tagline__overhead, .person-card__position {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -135,12 +145,17 @@ h1 {
   text-decoration: none;
   color: #fff; }
 
-.promo__callback, .nav__link {
+.person-card__name-link, .promo__callback, .nav__link {
   font-size: 13px;
   font-family: Poppins, sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-weight: bold; }
+  font-weight: bold;
+  text-decoration: none; }
+
+.person-card__name-link {
+  font-family: Poppins, sans-serif;
+  text-transform: none; }
 
 .promo__header, .header, .nav__list, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
@@ -153,13 +168,13 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.processes__title, .tagline__title {
+.section-title__title, .tagline__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
 
-.processes__overhead, .tagline__overhead {
+.section-title__overhead, .tagline__overhead, .person-card__position {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -171,7 +186,7 @@ h1 {
   margin: 0 auto; }
   .container--promo {
     margin-bottom: 148px; }
-  .container--description {
+  .container--medium {
     max-width: 760px; }
   @media (max-width: 1200px) {
     .container {
@@ -185,12 +200,17 @@ h1 {
   text-decoration: none;
   color: #fff; }
 
-.promo__callback, .nav__link {
+.person-card__name-link, .promo__callback, .nav__link {
   font-size: 13px;
   font-family: Poppins, sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-weight: bold; }
+  font-weight: bold;
+  text-decoration: none; }
+
+.person-card__name-link {
+  font-family: Poppins, sans-serif;
+  text-transform: none; }
 
 .promo__header, .header, .nav__list, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
@@ -203,13 +223,13 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.processes__title, .tagline__title {
+.section-title__title, .tagline__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
 
-.processes__overhead, .tagline__overhead {
+.section-title__overhead, .tagline__overhead, .person-card__position {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -220,7 +240,6 @@ h1 {
   background: #008aff;
   border-radius: 0 0 200px 200px;
   overflow: hidden;
-  max-width: 1600px;
   margin: 0 auto 148px;
   position: relative;
   -webkit-transition: border-radius 0.5s;
@@ -267,6 +286,7 @@ h1 {
     border-top-left-radius: 200px;
     overflow: hidden; }
   .promo__slider-picture {
+    display: block;
     -o-object-fit: cover;
        object-fit: cover;
     width: 100%;
@@ -280,12 +300,17 @@ h1 {
   text-decoration: none;
   color: #fff; }
 
-.promo__callback, .nav__link {
+.person-card__name-link, .promo__callback, .nav__link {
   font-size: 13px;
   font-family: Poppins, sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-weight: bold; }
+  font-weight: bold;
+  text-decoration: none; }
+
+.person-card__name-link {
+  font-family: Poppins, sans-serif;
+  text-transform: none; }
 
 .promo__header, .header, .nav__list, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
@@ -298,13 +323,13 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.processes__title, .tagline__title {
+.section-title__title, .tagline__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
 
-.processes__overhead, .tagline__overhead {
+.section-title__overhead, .tagline__overhead, .person-card__position {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -326,12 +351,17 @@ h1 {
   text-decoration: none;
   color: #fff; }
 
-.promo__callback, .nav__link {
+.person-card__name-link, .promo__callback, .nav__link {
   font-size: 13px;
   font-family: Poppins, sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-weight: bold; }
+  font-weight: bold;
+  text-decoration: none; }
+
+.person-card__name-link {
+  font-family: Poppins, sans-serif;
+  text-transform: none; }
 
 .promo__header, .header, .nav__list, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
@@ -344,13 +374,13 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.processes__title, .tagline__title {
+.section-title__title, .tagline__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
 
-.processes__overhead, .tagline__overhead {
+.section-title__overhead, .tagline__overhead, .person-card__position {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -392,12 +422,17 @@ h1 {
   text-decoration: none;
   color: #fff; }
 
-.promo__callback, .nav__link {
+.person-card__name-link, .promo__callback, .nav__link {
   font-size: 13px;
   font-family: Poppins, sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-weight: bold; }
+  font-weight: bold;
+  text-decoration: none; }
+
+.person-card__name-link {
+  font-family: Poppins, sans-serif;
+  text-transform: none; }
 
 .promo__header, .header, .nav__list, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
@@ -410,13 +445,13 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.processes__title, .tagline__title {
+.section-title__title, .tagline__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
 
-.processes__overhead, .tagline__overhead {
+.section-title__overhead, .tagline__overhead, .person-card__position {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -478,12 +513,17 @@ h1 {
   text-decoration: none;
   color: #fff; }
 
-.promo__callback, .nav__link {
+.person-card__name-link, .promo__callback, .nav__link {
   font-size: 13px;
   font-family: Poppins, sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-weight: bold; }
+  font-weight: bold;
+  text-decoration: none; }
+
+.person-card__name-link {
+  font-family: Poppins, sans-serif;
+  text-transform: none; }
 
 .promo__header, .header, .nav__list, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
@@ -496,13 +536,13 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.processes__title, .tagline__title {
+.section-title__title, .tagline__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
 
-.processes__overhead, .tagline__overhead {
+.section-title__overhead, .tagline__overhead, .person-card__position {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -534,12 +574,17 @@ h1 {
   text-decoration: none;
   color: #fff; }
 
-.promo__callback, .nav__link {
+.person-card__name-link, .promo__callback, .nav__link {
   font-size: 13px;
   font-family: Poppins, sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-weight: bold; }
+  font-weight: bold;
+  text-decoration: none; }
+
+.person-card__name-link {
+  font-family: Poppins, sans-serif;
+  text-transform: none; }
 
 .promo__header, .header, .nav__list, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
@@ -552,13 +597,13 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.processes__title, .tagline__title {
+.section-title__title, .tagline__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
 
-.processes__overhead, .tagline__overhead {
+.section-title__overhead, .tagline__overhead, .person-card__position {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -590,12 +635,17 @@ h1 {
   text-decoration: none;
   color: #fff; }
 
-.promo__callback, .nav__link {
+.person-card__name-link, .promo__callback, .nav__link {
   font-size: 13px;
   font-family: Poppins, sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-weight: bold; }
+  font-weight: bold;
+  text-decoration: none; }
+
+.person-card__name-link {
+  font-family: Poppins, sans-serif;
+  text-transform: none; }
 
 .promo__header, .header, .nav__list, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
@@ -608,13 +658,77 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.processes__title, .tagline__title {
+.section-title__title, .tagline__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
 
-.processes__overhead, .tagline__overhead {
+.section-title__overhead, .tagline__overhead, .person-card__position {
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 3px;
+  text-transform: uppercase; }
+
+.section-title__description {
+  width: 30%; }
+
+.section-title__overhead {
+  color: #c0cdd7;
+  margin-bottom: 16px; }
+
+.section-title__title {
+  color: #253757;
+  margin-bottom: 24px; }
+
+.section-title__ideas {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #6c788b; }
+  .section-title__ideas:not(:last-child) {
+    margin-bottom: 20px; }
+
+/*list*/
+h1 {
+  font-weight: 400; }
+
+.promo__callback, .nav__link {
+  text-decoration: none;
+  color: #fff; }
+
+.person-card__name-link, .promo__callback, .nav__link {
+  font-size: 13px;
+  font-family: Poppins, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bold;
+  text-decoration: none; }
+
+.person-card__name-link {
+  font-family: Poppins, sans-serif;
+  text-transform: none; }
+
+.promo__header, .header, .nav__list, .promo__content, .services__items, .processes__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.section-title__title, .tagline__title {
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 150%; }
+
+.section-title__overhead, .tagline__overhead, .person-card__position {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -641,12 +755,17 @@ h1 {
   text-decoration: none;
   color: #fff; }
 
-.promo__callback, .nav__link {
+.person-card__name-link, .promo__callback, .nav__link {
   font-size: 13px;
   font-family: Poppins, sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-weight: bold; }
+  font-weight: bold;
+  text-decoration: none; }
+
+.person-card__name-link {
+  font-family: Poppins, sans-serif;
+  text-transform: none; }
 
 .promo__header, .header, .nav__list, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
@@ -659,13 +778,13 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.processes__title, .tagline__title {
+.section-title__title, .tagline__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
 
-.processes__overhead, .tagline__overhead {
+.section-title__overhead, .tagline__overhead, .person-card__position {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -687,12 +806,17 @@ h1 {
   text-decoration: none;
   color: #fff; }
 
-.promo__callback, .nav__link {
+.person-card__name-link, .promo__callback, .nav__link {
   font-size: 13px;
   font-family: Poppins, sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-weight: bold; }
+  font-weight: bold;
+  text-decoration: none; }
+
+.person-card__name-link {
+  font-family: Poppins, sans-serif;
+  text-transform: none; }
 
 .promo__header, .header, .nav__list, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
@@ -705,13 +829,13 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.processes__title, .tagline__title {
+.section-title__title, .tagline__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
 
-.processes__overhead, .tagline__overhead {
+.section-title__overhead, .tagline__overhead, .person-card__position {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -764,12 +888,17 @@ h1 {
   text-decoration: none;
   color: #fff; }
 
-.promo__callback, .nav__link {
+.person-card__name-link, .promo__callback, .nav__link {
   font-size: 13px;
   font-family: Poppins, sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-weight: bold; }
+  font-weight: bold;
+  text-decoration: none; }
+
+.person-card__name-link {
+  font-family: Poppins, sans-serif;
+  text-transform: none; }
 
 .promo__header, .header, .nav__list, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
@@ -782,13 +911,13 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.processes__title, .tagline__title {
+.section-title__title, .tagline__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
 
-.processes__overhead, .tagline__overhead {
+.section-title__overhead, .tagline__overhead, .person-card__position {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -799,6 +928,8 @@ h1 {
   padding: 148px 0 44px; }
   .processes__content {
     width: 100%; }
+  .processes__description {
+    max-width: 30%; }
   .processes__items {
     width: 50%;
     display: -webkit-box;
@@ -827,71 +958,17 @@ h1 {
   text-decoration: none;
   color: #fff; }
 
-.promo__callback, .nav__link {
+.person-card__name-link, .promo__callback, .nav__link {
   font-size: 13px;
   font-family: Poppins, sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-weight: bold; }
-
-.promo__header, .header, .nav__list, .promo__content, .services__items, .processes__content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
-
-.processes__title, .tagline__title {
-  font-family: Poppins, sans-serif;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 150%; }
-
-.processes__overhead, .tagline__overhead {
-  font-family: Poppins, sans-serif;
   font-weight: bold;
-  font-size: 13px;
-  letter-spacing: 3px;
-  text-transform: uppercase; }
+  text-decoration: none; }
 
-.processes__description {
-  width: 30%; }
-
-.processes__overhead {
-  color: #c0cdd7;
-  margin-bottom: 16px; }
-
-.processes__title {
-  color: #253757;
-  margin-bottom: 24px; }
-
-.processes__ideas {
-  font-family: "Open Sans", sans-serif;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 150%;
-  color: #6c788b; }
-  .processes__ideas:not(:last-child) {
-    margin-bottom: 20px; }
-
-/*list*/
-h1 {
-  font-weight: 400; }
-
-.promo__callback, .nav__link {
-  text-decoration: none;
-  color: #fff; }
-
-.promo__callback, .nav__link {
-  font-size: 13px;
+.person-card__name-link {
   font-family: Poppins, sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-weight: bold; }
+  text-transform: none; }
 
 .promo__header, .header, .nav__list, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
@@ -904,13 +981,13 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.processes__title, .tagline__title {
+.section-title__title, .tagline__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
 
-.processes__overhead, .tagline__overhead {
+.section-title__overhead, .tagline__overhead, .person-card__position {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -970,12 +1047,17 @@ h1 {
   text-decoration: none;
   color: #fff; }
 
-.promo__callback, .nav__link {
+.person-card__name-link, .promo__callback, .nav__link {
   font-size: 13px;
   font-family: Poppins, sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-weight: bold; }
+  font-weight: bold;
+  text-decoration: none; }
+
+.person-card__name-link {
+  font-family: Poppins, sans-serif;
+  text-transform: none; }
 
 .promo__header, .header, .nav__list, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
@@ -988,13 +1070,13 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.processes__title, .tagline__title {
+.section-title__title, .tagline__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
 
-.processes__overhead, .tagline__overhead {
+.section-title__overhead, .tagline__overhead, .person-card__position {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -1040,12 +1122,17 @@ h1 {
   text-decoration: none;
   color: #fff; }
 
-.promo__callback, .nav__link {
+.person-card__name-link, .promo__callback, .nav__link {
   font-size: 13px;
   font-family: Poppins, sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-weight: bold; }
+  font-weight: bold;
+  text-decoration: none; }
+
+.person-card__name-link {
+  font-family: Poppins, sans-serif;
+  text-transform: none; }
 
 .promo__header, .header, .nav__list, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
@@ -1058,13 +1145,13 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.processes__title, .tagline__title {
+.section-title__title, .tagline__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
 
-.processes__overhead, .tagline__overhead {
+.section-title__overhead, .tagline__overhead, .person-card__position {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -1074,7 +1161,8 @@ h1 {
 .tagline {
   max-width: 1600px;
   margin: 0 auto;
-  padding-left: 120px; }
+  padding-left: 120px;
+  margin-bottom: 148px; }
   .tagline__wrapper {
     background: #ff9c8e;
     border-top-left-radius: 200px;
@@ -1132,5 +1220,164 @@ h1 {
       background: url("../images/features/features-item-icon-2.svg") center/100% no-repeat; }
     .tagline__text--logo-3::before {
       background: url("../images/features/features-item-icon-3.svg") center/100% no-repeat; }
+
+/*list*/
+h1 {
+  font-weight: 400; }
+
+.promo__callback, .nav__link {
+  text-decoration: none;
+  color: #fff; }
+
+.person-card__name-link, .promo__callback, .nav__link {
+  font-size: 13px;
+  font-family: Poppins, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bold;
+  text-decoration: none; }
+
+.person-card__name-link {
+  font-family: Poppins, sans-serif;
+  text-transform: none; }
+
+.promo__header, .header, .nav__list, .promo__content, .services__items, .processes__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.section-title__title, .tagline__title {
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 150%; }
+
+.section-title__overhead, .tagline__overhead, .person-card__position {
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 3px;
+  text-transform: uppercase; }
+
+.testimonials__description {
+  margin-bottom: 85px; }
+
+.testimonials__review {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 168px; }
+
+/*list*/
+h1 {
+  font-weight: 400; }
+
+.promo__callback, .nav__link {
+  text-decoration: none;
+  color: #fff; }
+
+.person-card__name-link, .promo__callback, .nav__link {
+  font-size: 13px;
+  font-family: Poppins, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bold;
+  text-decoration: none; }
+
+.person-card__name-link {
+  font-family: Poppins, sans-serif;
+  text-transform: none; }
+
+.promo__header, .header, .nav__list, .promo__content, .services__items, .processes__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.section-title__title, .tagline__title {
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 150%; }
+
+.section-title__overhead, .tagline__overhead, .person-card__position {
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 3px;
+  text-transform: uppercase; }
+
+.person-card {
+  width: 314px;
+  padding: 87px 32px 32px;
+  text-align: center;
+  background: #fff;
+  -webkit-box-shadow: 0 9px 18px rgba(37, 41, 49, 0.03);
+          box-shadow: 0 9px 18px rgba(37, 41, 49, 0.03);
+  border-radius: 24px; }
+  .person-card__photo {
+    margin-bottom: 110px;
+    position: relative;
+    z-index: 1; }
+    .person-card__photo::before, .person-card__photo::after {
+      position: absolute;
+      content: "";
+      width: 139px;
+      height: 56px;
+      border-radius: 500px;
+      z-index: -1;
+      -webkit-transform: rotate(-60deg);
+              transform: rotate(-60deg);
+      background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #56ccf2;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #56ccf2; }
+    .person-card__photo::before {
+      top: 0;
+      left: 0; }
+    .person-card__photo::after {
+      bottom: 0;
+      right: 0; }
+  .person-card__img {
+    width: 140px;
+    height: 140px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 50%; }
+  .person-card__review {
+    font-size: 13px;
+    line-height: 150%;
+    color: #6c788b;
+    margin-bottom: 16px;
+    position: relative; }
+    .person-card__review::before {
+      content: "";
+      width: 19px;
+      height: 21px;
+      position: absolute;
+      top: -31px;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%);
+      background-color: #56ccf2;
+      -webkit-mask: url("../images/testimonials/quotes.svg") no-repeat 100%/100%; }
+  .person-card__name-link {
+    display: block;
+    color: #253757;
+    margin-bottom: 10px; }
+  .person-card__position {
+    color: #c0cdd7; }
 
 /*# sourceMappingURL=main.css.map */
