@@ -3,9 +3,17 @@
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
+.slider__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
 .title {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
+
+.slider__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
 
 h1 {
   font-weight: 400; }
@@ -135,9 +143,17 @@ table {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
+.slider__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
 .title {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
+
+.slider__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
 
 h1 {
   font-weight: 400; }
@@ -235,9 +251,17 @@ body {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
+.slider__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
 .title {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
+
+.slider__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
 
 h1 {
   font-weight: 400; }
@@ -342,9 +366,17 @@ h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
+.slider__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
 .title {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
+
+.slider__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
 
 h1 {
   font-weight: 400; }
@@ -510,9 +542,17 @@ h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
+.slider__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
 .title {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
+
+.slider__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
 
 h1 {
   font-weight: 400; }
@@ -614,23 +654,63 @@ h1 {
        object-fit: cover;
     width: 100%;
     height: 100%;
-    -webkit-transform: translateX(100%);
-            transform: translateX(100%); }
+    opacity: 0;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s; }
     .slider__picture--previous {
       -webkit-transform: translateX(-100%);
               transform: translateX(-100%); }
     .slider__picture--is-active {
-      -webkit-transform: translateX(0);
-              transform: translateX(0); }
+      opacity: 1; }
+  .slider__toggle {
+    position: absolute;
+    left: 48px;
+    bottom: 66px;
+    z-index: 2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #fff; }
+    @media (max-width: 900px) {
+      .slider__toggle {
+        display: none; } }
+  .slider__title {
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 3px;
+    text-transform: uppercase; }
+  .slider__text {
+    font-size: 14px;
+    line-height: 20px; }
+  .slider__arrows {
+    margin-right: 24px; }
+  .slider__btn {
+    width: 32px;
+    height: 32px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    border: 1px solid #fff;
+    border-radius: 50%; }
 
 /*lists*/
 .description__text, .contacts__link {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
+.slider__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
 .title {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
+
+.slider__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
 
 h1 {
   font-weight: 400; }
@@ -728,9 +808,17 @@ h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
+.slider__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
 .title {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
+
+.slider__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
 
 h1 {
   font-weight: 400; }
@@ -816,8 +904,8 @@ h1 {
   .nav {
     position: fixed;
     top: 0;
-    left: 0;
-    bottom: 0;
+    left: 50%;
+    bottom: 50%;
     right: 0;
     -webkit-transform: translateY(-100%);
             transform: translateY(-100%);
@@ -828,7 +916,13 @@ h1 {
     -webkit-transition: -webkit-transform 0.5s;
     transition: -webkit-transform 0.5s;
     transition: transform 0.5s;
-    transition: transform 0.5s, -webkit-transform 0.5s; }
+    transition: transform 0.5s, -webkit-transform 0.5s; } }
+  @media (max-width: 968px) and (max-width: 768px) {
+    .nav {
+      left: 0;
+      bottom: 0; } }
+
+@media (max-width: 968px) {
     .nav--is-active {
       -webkit-transform: translateY(0);
               transform: translateY(0); } }
@@ -896,9 +990,17 @@ h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
+.slider__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
 .title {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
+
+.slider__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
 
 h1 {
   font-weight: 400; }
@@ -1048,9 +1150,17 @@ h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
+.slider__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
 .title {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
+
+.slider__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
 
 h1 {
   font-weight: 400; }
@@ -1154,9 +1264,17 @@ h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
+.slider__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
 .title {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
+
+.slider__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
 
 h1 {
   font-weight: 400; }
@@ -1267,9 +1385,17 @@ h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
+.slider__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
 .title {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
+
+.slider__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
 
 h1 {
   font-weight: 400; }
@@ -1376,9 +1502,17 @@ h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
+.slider__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
 .title {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
+
+.slider__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
 
 h1 {
   font-weight: 400; }
@@ -1489,9 +1623,17 @@ h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
+.slider__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
 .title {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
+
+.slider__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
 
 h1 {
   font-weight: 400; }
@@ -1586,9 +1728,17 @@ h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
+.slider__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
 .title {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
+
+.slider__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
 
 h1 {
   font-weight: 400; }
@@ -1713,9 +1863,17 @@ h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
+.slider__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
 .title {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
+
+.slider__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
 
 h1 {
   font-weight: 400; }
@@ -1860,9 +2018,17 @@ h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
+.slider__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
 .title {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
+
+.slider__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
 
 h1 {
   font-weight: 400; }
@@ -1994,9 +2160,17 @@ h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
+.slider__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
 .title {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
+
+.slider__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
 
 h1 {
   font-weight: 400; }
@@ -2114,9 +2288,17 @@ h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
+.slider__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
 .title {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
+
+.slider__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
 
 h1 {
   font-weight: 400; }
@@ -2304,9 +2486,17 @@ h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
+.slider__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
 .title {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
+
+.slider__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
 
 h1 {
   font-weight: 400; }
@@ -2428,9 +2618,17 @@ h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
+.slider__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
 .title {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
+
+.slider__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
 
 h1 {
   font-weight: 400; }
@@ -2621,9 +2819,17 @@ h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
+.slider__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
 .title {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
+
+.slider__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
 
 h1 {
   font-weight: 400; }
@@ -2745,9 +2951,17 @@ h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
+.slider__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
 .title {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
+
+.slider__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
 
 h1 {
   font-weight: 400; }
@@ -2941,9 +3155,17 @@ h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
+.slider__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
 .title {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
+
+.slider__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
 
 h1 {
   font-weight: 400; }
@@ -3087,9 +3309,17 @@ h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
+.slider__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
 .title {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
+
+.slider__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
 
 h1 {
   font-weight: 400; }
@@ -3249,9 +3479,17 @@ h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
+.slider__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
 .title {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
+
+.slider__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
 
 h1 {
   font-weight: 400; }
@@ -3404,9 +3642,17 @@ h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
+.slider__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
 .title {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
+
+.slider__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
 
 h1 {
   font-weight: 400; }
