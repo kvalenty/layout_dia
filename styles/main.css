@@ -1,5 +1,5 @@
 /*lists*/
-.description__text {
+.description__text, .contacts__link {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
@@ -24,7 +24,7 @@ h1 {
 .person-card__name-link {
   text-transform: none; }
 
-.promo__header, .header, .promo__content, .services__items, .processes__content, .contacts__media {
+.promo__header, .header, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -131,7 +131,7 @@ table {
   border-spacing: 0; }
 
 /*lists*/
-.description__text {
+.description__text, .contacts__link {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
@@ -156,7 +156,7 @@ h1 {
 .person-card__name-link {
   text-transform: none; }
 
-.promo__header, .header, .promo__content, .services__items, .processes__content, .contacts__media {
+.promo__header, .header, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -228,7 +228,7 @@ body {
   background: #f2f9ff; }
 
 /*lists*/
-.description__text {
+.description__text, .contacts__link {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
@@ -253,7 +253,7 @@ h1 {
 .person-card__name-link {
   text-transform: none; }
 
-.promo__header, .header, .promo__content, .services__items, .processes__content, .contacts__media {
+.promo__header, .header, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -331,11 +331,11 @@ h1 {
     .container {
       padding: 0 50px; } }
   @media (max-width: 900px) {
-    .container--testimonials {
+    .container--small-padding {
       padding: 0 20px; } }
 
 /*lists*/
-.description__text {
+.description__text, .contacts__link {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
@@ -360,7 +360,7 @@ h1 {
 .person-card__name-link {
   text-transform: none; }
 
-.promo__header, .header, .promo__content, .services__items, .processes__content, .contacts__media {
+.promo__header, .header, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -503,7 +503,7 @@ h1 {
         margin-bottom: 20px; } }
 
 /*lists*/
-.description__text {
+.description__text, .contacts__link {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
@@ -528,7 +528,7 @@ h1 {
 .person-card__name-link {
   text-transform: none; }
 
-.promo__header, .header, .promo__content, .services__items, .processes__content, .contacts__media {
+.promo__header, .header, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -621,7 +621,7 @@ h1 {
               transform: translateX(0); }
 
 /*lists*/
-.description__text {
+.description__text, .contacts__link {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
@@ -646,7 +646,7 @@ h1 {
 .person-card__name-link {
   text-transform: none; }
 
-.promo__header, .header, .promo__content, .services__items, .processes__content, .contacts__media {
+.promo__header, .header, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -721,7 +721,7 @@ h1 {
     display: none; } }
 
 /*lists*/
-.description__text {
+.description__text, .contacts__link {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
@@ -746,7 +746,7 @@ h1 {
 .person-card__name-link {
   text-transform: none; }
 
-.promo__header, .header, .promo__content, .services__items, .processes__content, .contacts__media {
+.promo__header, .header, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -881,7 +881,7 @@ h1 {
       align-self: end; }
 
 /*lists*/
-.description__text {
+.description__text, .contacts__link {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
@@ -906,7 +906,7 @@ h1 {
 .person-card__name-link {
   text-transform: none; }
 
-.promo__header, .header, .promo__content, .services__items, .processes__content, .contacts__media {
+.promo__header, .header, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1033,7 +1033,7 @@ h1 {
       margin-bottom: 30px; } }
 
 /*lists*/
-.description__text {
+.description__text, .contacts__link {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
@@ -1058,7 +1058,7 @@ h1 {
 .person-card__name-link {
   text-transform: none; }
 
-.promo__header, .header, .promo__content, .services__items, .processes__content, .contacts__media {
+.promo__header, .header, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1139,7 +1139,7 @@ h1 {
     color: #ff9c8e; }
 
 /*lists*/
-.description__text {
+.description__text, .contacts__link {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
@@ -1164,7 +1164,7 @@ h1 {
 .person-card__name-link {
   text-transform: none; }
 
-.promo__header, .header, .promo__content, .services__items, .processes__content, .contacts__media {
+.promo__header, .header, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1252,7 +1252,7 @@ h1 {
         text-align: justify; } }
 
 /*lists*/
-.description__text {
+.description__text, .contacts__link {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
@@ -1277,7 +1277,7 @@ h1 {
 .person-card__name-link {
   text-transform: none; }
 
-.promo__header, .header, .promo__content, .services__items, .processes__content, .contacts__media {
+.promo__header, .header, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1361,7 +1361,7 @@ h1 {
     margin-bottom: 20px; }
 
 /*lists*/
-.description__text {
+.description__text, .contacts__link {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
@@ -1386,7 +1386,7 @@ h1 {
 .person-card__name-link {
   text-transform: none; }
 
-.promo__header, .header, .promo__content, .services__items, .processes__content, .contacts__media {
+.promo__header, .header, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1474,7 +1474,7 @@ h1 {
     margin-bottom: 30px; }
 
 /*lists*/
-.description__text {
+.description__text, .contacts__link {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
@@ -1499,7 +1499,7 @@ h1 {
 .person-card__name-link {
   text-transform: none; }
 
-.promo__header, .header, .promo__content, .services__items, .processes__content, .contacts__media {
+.promo__header, .header, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1571,7 +1571,7 @@ h1 {
       font-size: 32px; } }
 
 /*lists*/
-.description__text {
+.description__text, .contacts__link {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
@@ -1596,7 +1596,7 @@ h1 {
 .person-card__name-link {
   text-transform: none; }
 
-.promo__header, .header, .promo__content, .services__items, .processes__content, .contacts__media {
+.promo__header, .header, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1698,7 +1698,7 @@ h1 {
             transform: scale(1.03); }
 
 /*lists*/
-.description__text {
+.description__text, .contacts__link {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
@@ -1723,7 +1723,7 @@ h1 {
 .person-card__name-link {
   text-transform: none; }
 
-.promo__header, .header, .promo__content, .services__items, .processes__content, .contacts__media {
+.promo__header, .header, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1845,7 +1845,7 @@ h1 {
       margin-bottom: 30px; }
 
 /*lists*/
-.description__text {
+.description__text, .contacts__link {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
@@ -1870,7 +1870,7 @@ h1 {
 .person-card__name-link {
   text-transform: none; }
 
-.promo__header, .header, .promo__content, .services__items, .processes__content, .contacts__media {
+.promo__header, .header, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1979,7 +1979,7 @@ h1 {
     background: #f36363 url("../images/slider/arrow-btn.svg") center/50% no-repeat; }
 
 /*lists*/
-.description__text {
+.description__text, .contacts__link {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
@@ -2004,7 +2004,7 @@ h1 {
 .person-card__name-link {
   text-transform: none; }
 
-.promo__header, .header, .promo__content, .services__items, .processes__content, .contacts__media {
+.promo__header, .header, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2099,7 +2099,7 @@ h1 {
             transform: translateX(20px); }
 
 /*lists*/
-.description__text {
+.description__text, .contacts__link {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
@@ -2124,7 +2124,7 @@ h1 {
 .person-card__name-link {
   text-transform: none; }
 
-.promo__header, .header, .promo__content, .services__items, .processes__content, .contacts__media {
+.promo__header, .header, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2289,7 +2289,7 @@ h1 {
       background: url("../images/features/features-item-icon-3.svg") center/100% no-repeat; }
 
 /*lists*/
-.description__text {
+.description__text, .contacts__link {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
@@ -2314,7 +2314,7 @@ h1 {
 .person-card__name-link {
   text-transform: none; }
 
-.promo__header, .header, .promo__content, .services__items, .processes__content, .contacts__media {
+.promo__header, .header, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2413,7 +2413,7 @@ h1 {
     margin-bottom: 30px; } }
 
 /*lists*/
-.description__text {
+.description__text, .contacts__link {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
@@ -2438,7 +2438,7 @@ h1 {
 .person-card__name-link {
   text-transform: none; }
 
-.promo__header, .header, .promo__content, .services__items, .processes__content, .contacts__media {
+.promo__header, .header, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2606,7 +2606,7 @@ h1 {
     background-color: #f36363; }
 
 /*lists*/
-.description__text {
+.description__text, .contacts__link {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
@@ -2631,7 +2631,7 @@ h1 {
 .person-card__name-link {
   text-transform: none; }
 
-.promo__header, .header, .promo__content, .services__items, .processes__content, .contacts__media {
+.promo__header, .header, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2730,7 +2730,7 @@ h1 {
       background-color: #eee; }
 
 /*lists*/
-.description__text {
+.description__text, .contacts__link {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
@@ -2755,7 +2755,7 @@ h1 {
 .person-card__name-link {
   text-transform: none; }
 
-.promo__header, .header, .promo__content, .services__items, .processes__content, .contacts__media {
+.promo__header, .header, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2926,7 +2926,7 @@ h1 {
     border-color: #fcc91d; }
 
 /*lists*/
-.description__text {
+.description__text, .contacts__link {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
@@ -2951,7 +2951,7 @@ h1 {
 .person-card__name-link {
   text-transform: none; }
 
-.promo__header, .header, .promo__content, .services__items, .processes__content, .contacts__media {
+.promo__header, .header, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3015,12 +3015,15 @@ h1 {
   color: #fff; }
 
 .contacts {
-  display: none;
   width: 100%;
   background: #008aff;
   border-radius: 0 200px 0 0;
   position: relative;
   padding-top: 180px; }
+  @media (max-width: 900px) {
+    .contacts {
+      padding-top: 50px;
+      border-radius: 0 50px 0 0; } }
   .contacts__content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3030,6 +3033,16 @@ h1 {
         -ms-flex-pack: justify;
             justify-content: space-between;
     margin-bottom: 138px; }
+    @media (max-width: 900px) {
+      .contacts__content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        margin-bottom: 30px; } }
   .contacts::after {
     content: "";
     position: absolute;
@@ -3045,13 +3058,21 @@ h1 {
   .contacts__title {
     color: #fff;
     margin-bottom: 50px; }
-  .contacts__message {
-    width: 40%; }
+  @media (max-width: 900px) {
+    .contacts__address {
+      margin-bottom: 50px;
+      text-align: center; } }
   .contacts__menu {
     padding-bottom: 82px; }
+    @media (max-width: 900px) {
+      .contacts__menu {
+        padding-bottom: 30px; } }
+  @media (max-width: 900px) {
+    .contacts__nav {
+      display: none; } }
 
 /*lists*/
-.description__text {
+.description__text, .contacts__link {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
@@ -3076,7 +3097,7 @@ h1 {
 .person-card__name-link {
   text-transform: none; }
 
-.promo__header, .header, .promo__content, .services__items, .processes__content, .contacts__media {
+.promo__header, .header, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3204,13 +3225,16 @@ h1 {
       -webkit-transition: color 0.4s, opacity 0.4s;
       transition: color 0.4s, opacity 0.4s; }
   .form__button {
-    width: 45%;
+    width: 60%;
     padding: 16px 0;
     margin-top: 80px;
     text-align: center; }
+    @media (max-width: 900px) {
+      .form__button {
+        margin: 50px auto 0; } }
 
 /*lists*/
-.description__text {
+.description__text, .contacts__link {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
@@ -3235,7 +3259,7 @@ h1 {
 .person-card__name-link {
   text-transform: none; }
 
-.promo__header, .header, .promo__content, .services__items, .processes__content, .contacts__media {
+.promo__header, .header, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3298,6 +3322,19 @@ h1 {
   line-height: 22px;
   color: #fff; }
 
+@media (max-width: 900px) {
+  .contacts__items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; } }
+
 .contacts__item {
   margin-bottom: 48px; }
 
@@ -3307,8 +3344,6 @@ h1 {
   opacity: 0.5; }
 
 .contacts__link {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
   font-size: 24px;
   color: #fff;
   -webkit-transition: color 0.3s;
@@ -3317,7 +3352,18 @@ h1 {
     color: #ff9c8e; }
 
 .contacts__media {
-  width: 45%; }
+  width: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  @media (max-width: 900px) {
+    .contacts__media {
+      width: 50vw; } }
 
 .contacts__media-link {
   position: relative; }
@@ -3330,7 +3376,9 @@ h1 {
     -webkit-transition: background-color 0.3s;
     transition: background-color 0.3s;
     left: 0;
-    top: 0; }
+    top: 0;
+    -webkit-transform: translate(-50%);
+            transform: translate(-50%); }
   .contacts__media-link:hover::before {
     background: #ff9c8e; }
   .contacts__media-link--facebook::before {
@@ -3341,7 +3389,7 @@ h1 {
     -webkit-mask: url("../images/social-media/instagram.svg") no-repeat 100%/100%; }
 
 /*lists*/
-.description__text {
+.description__text, .contacts__link {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
@@ -3366,7 +3414,7 @@ h1 {
 .person-card__name-link {
   text-transform: none; }
 
-.promo__header, .header, .promo__content, .services__items, .processes__content, .contacts__media {
+.promo__header, .header, .promo__content, .services__items, .processes__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
