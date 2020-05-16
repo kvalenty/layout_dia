@@ -468,7 +468,7 @@ h1 {
   transition: border-radius 0.5s; }
   @media (max-width: 1601px) {
     .promo {
-      border-bottom-right-radius: 0; } }
+      border-radius: 0 0 200px; } }
   @media (max-width: 900px) {
     .promo {
       display: -webkit-box;
@@ -657,6 +657,9 @@ h1 {
     opacity: 0;
     -webkit-transition: opacity 1s;
     transition: opacity 1s; }
+    @media (max-width: 900px) {
+      .slider__picture {
+        border-radius: 50px; } }
     .slider__picture--previous {
       -webkit-transform: translateX(-100%);
               transform: translateX(-100%); }
