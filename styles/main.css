@@ -35,13 +35,17 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.section-title__title, .tagline__title, .contacts__title {
+.section-title__title, .contacts__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
+  @media (max-width: 900px) {
+    .section-title__title, .contacts__title {
+      text-align: center;
+      font-size: 26px; } }
 
-.section-title__overhead, .tagline__overhead, .person-card__position, .contacts__subtitle {
+.section-title__overhead, .person-card__position, .contacts__subtitle {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -163,13 +167,17 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.section-title__title, .tagline__title, .contacts__title {
+.section-title__title, .contacts__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
+  @media (max-width: 900px) {
+    .section-title__title, .contacts__title {
+      text-align: center;
+      font-size: 26px; } }
 
-.section-title__overhead, .tagline__overhead, .person-card__position, .contacts__subtitle {
+.section-title__overhead, .person-card__position, .contacts__subtitle {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -256,13 +264,17 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.section-title__title, .tagline__title, .contacts__title {
+.section-title__title, .contacts__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
+  @media (max-width: 900px) {
+    .section-title__title, .contacts__title {
+      text-align: center;
+      font-size: 26px; } }
 
-.section-title__overhead, .tagline__overhead, .person-card__position, .contacts__subtitle {
+.section-title__overhead, .person-card__position, .contacts__subtitle {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -318,6 +330,9 @@ h1 {
   @media (max-width: 1200px) {
     .container {
       padding: 0 50px; } }
+  @media (max-width: 900px) {
+    .container--testimonials {
+      padding: 0 20px; } }
 
 /*lists*/
 .description__text {
@@ -356,13 +371,17 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.section-title__title, .tagline__title, .contacts__title {
+.section-title__title, .contacts__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
+  @media (max-width: 900px) {
+    .section-title__title, .contacts__title {
+      text-align: center;
+      font-size: 26px; } }
 
-.section-title__overhead, .tagline__overhead, .person-card__position, .contacts__subtitle {
+.section-title__overhead, .person-card__position, .contacts__subtitle {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -520,13 +539,17 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.section-title__title, .tagline__title, .contacts__title {
+.section-title__title, .contacts__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
+  @media (max-width: 900px) {
+    .section-title__title, .contacts__title {
+      text-align: center;
+      font-size: 26px; } }
 
-.section-title__overhead, .tagline__overhead, .person-card__position, .contacts__subtitle {
+.section-title__overhead, .person-card__position, .contacts__subtitle {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -634,13 +657,17 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.section-title__title, .tagline__title, .contacts__title {
+.section-title__title, .contacts__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
+  @media (max-width: 900px) {
+    .section-title__title, .contacts__title {
+      text-align: center;
+      font-size: 26px; } }
 
-.section-title__overhead, .tagline__overhead, .person-card__position, .contacts__subtitle {
+.section-title__overhead, .person-card__position, .contacts__subtitle {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -730,13 +757,17 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.section-title__title, .tagline__title, .contacts__title {
+.section-title__title, .contacts__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
+  @media (max-width: 900px) {
+    .section-title__title, .contacts__title {
+      text-align: center;
+      font-size: 26px; } }
 
-.section-title__overhead, .tagline__overhead, .person-card__position, .contacts__subtitle {
+.section-title__overhead, .person-card__position, .contacts__subtitle {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -886,13 +917,17 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.section-title__title, .tagline__title, .contacts__title {
+.section-title__title, .contacts__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
+  @media (max-width: 900px) {
+    .section-title__title, .contacts__title {
+      text-align: center;
+      font-size: 26px; } }
 
-.section-title__overhead, .tagline__overhead, .person-card__position, .contacts__subtitle {
+.section-title__overhead, .person-card__position, .contacts__subtitle {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -1034,13 +1069,17 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.section-title__title, .tagline__title, .contacts__title {
+.section-title__title, .contacts__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
+  @media (max-width: 900px) {
+    .section-title__title, .contacts__title {
+      text-align: center;
+      font-size: 26px; } }
 
-.section-title__overhead, .tagline__overhead, .person-card__position, .contacts__subtitle {
+.section-title__overhead, .person-card__position, .contacts__subtitle {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -1136,13 +1175,17 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.section-title__title, .tagline__title, .contacts__title {
+.section-title__title, .contacts__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
+  @media (max-width: 900px) {
+    .section-title__title, .contacts__title {
+      text-align: center;
+      font-size: 26px; } }
 
-.section-title__overhead, .tagline__overhead, .person-card__position, .contacts__subtitle {
+.section-title__overhead, .person-card__position, .contacts__subtitle {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -1245,13 +1288,17 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.section-title__title, .tagline__title, .contacts__title {
+.section-title__title, .contacts__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
+  @media (max-width: 900px) {
+    .section-title__title, .contacts__title {
+      text-align: center;
+      font-size: 26px; } }
 
-.section-title__overhead, .tagline__overhead, .person-card__position, .contacts__subtitle {
+.section-title__overhead, .person-card__position, .contacts__subtitle {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -1303,10 +1350,6 @@ h1 {
 .section-title__title {
   color: #253757;
   margin-bottom: 24px; }
-  @media (max-width: 900px) {
-    .section-title__title {
-      text-align: center;
-      font-size: 24px; } }
 
 .section-title__ideas {
   font-family: "Open Sans", sans-serif;
@@ -1354,13 +1397,17 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.section-title__title, .tagline__title, .contacts__title {
+.section-title__title, .contacts__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
+  @media (max-width: 900px) {
+    .section-title__title, .contacts__title {
+      text-align: center;
+      font-size: 26px; } }
 
-.section-title__overhead, .tagline__overhead, .person-card__position, .contacts__subtitle {
+.section-title__overhead, .person-card__position, .contacts__subtitle {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -1419,7 +1466,10 @@ h1 {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
-                flex-direction: column; } }
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; } }
   .services__card {
     margin-bottom: 30px; }
 
@@ -1460,13 +1510,17 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.section-title__title, .tagline__title, .contacts__title {
+.section-title__title, .contacts__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
+  @media (max-width: 900px) {
+    .section-title__title, .contacts__title {
+      text-align: center;
+      font-size: 26px; } }
 
-.section-title__overhead, .tagline__overhead, .person-card__position, .contacts__subtitle {
+.section-title__overhead, .person-card__position, .contacts__subtitle {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -1553,13 +1607,17 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.section-title__title, .tagline__title, .contacts__title {
+.section-title__title, .contacts__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
+  @media (max-width: 900px) {
+    .section-title__title, .contacts__title {
+      text-align: center;
+      font-size: 26px; } }
 
-.section-title__overhead, .tagline__overhead, .person-card__position, .contacts__subtitle {
+.section-title__overhead, .person-card__position, .contacts__subtitle {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -1602,7 +1660,7 @@ h1 {
   color: #fff; }
 
 .card {
-  width: 264px;
+  max-width: 264px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1676,13 +1734,17 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.section-title__title, .tagline__title, .contacts__title {
+.section-title__title, .contacts__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
+  @media (max-width: 900px) {
+    .section-title__title, .contacts__title {
+      text-align: center;
+      font-size: 26px; } }
 
-.section-title__overhead, .tagline__overhead, .person-card__position, .contacts__subtitle {
+.section-title__overhead, .person-card__position, .contacts__subtitle {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -1764,7 +1826,8 @@ h1 {
             -ms-flex-align: center;
                 align-items: center; } }
   .processes__cards-block {
-    width: 48%; }
+    width: 48%;
+    min-width: 250px; }
     .processes__cards-block--down {
       position: relative;
       bottom: -135px;
@@ -1818,13 +1881,17 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.section-title__title, .tagline__title, .contacts__title {
+.section-title__title, .contacts__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
+  @media (max-width: 900px) {
+    .section-title__title, .contacts__title {
+      text-align: center;
+      font-size: 26px; } }
 
-.section-title__overhead, .tagline__overhead, .person-card__position, .contacts__subtitle {
+.section-title__overhead, .person-card__position, .contacts__subtitle {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -1948,13 +2015,17 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.section-title__title, .tagline__title, .contacts__title {
+.section-title__title, .contacts__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
+  @media (max-width: 900px) {
+    .section-title__title, .contacts__title {
+      text-align: center;
+      font-size: 26px; } }
 
-.section-title__overhead, .tagline__overhead, .person-card__position, .contacts__subtitle {
+.section-title__overhead, .person-card__position, .contacts__subtitle {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -2064,13 +2135,17 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.section-title__title, .tagline__title, .contacts__title {
+.section-title__title, .contacts__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
+  @media (max-width: 900px) {
+    .section-title__title, .contacts__title {
+      text-align: center;
+      font-size: 26px; } }
 
-.section-title__overhead, .tagline__overhead, .person-card__position, .contacts__subtitle {
+.section-title__overhead, .person-card__position, .contacts__subtitle {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -2113,25 +2188,43 @@ h1 {
   color: #fff; }
 
 .tagline {
-  display: none;
   max-width: 1600px;
   margin: 0 auto;
   padding-left: 120px;
   margin-bottom: 148px; }
+  @media (max-width: 900px) {
+    .tagline {
+      padding-left: 0;
+      margin-bottom: 50px; } }
   .tagline__wrapper {
     background: #ff9c8e;
-    border-top-left-radius: 200px;
-    border-bottom-left-radius: 200px;
+    border-radius: 200px 0 0 200px;
     overflow: hidden;
     position: relative;
     padding: 204px 0 204px 204px; }
+    @media (max-width: 900px) {
+      .tagline__wrapper {
+        border-radius: 50px 0 0 50px;
+        padding: 40px 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center; } }
   .tagline__picture {
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 50%;
-    border-top-left-radius: 200px;
+    max-width: 40%;
+    border-radius: 200px 0 0;
     overflow: hidden; }
+    @media (max-width: 1024px) {
+      .tagline__picture {
+        display: none; } }
   .tagline__image {
     display: block;
     max-width: 100%;
@@ -2152,7 +2245,13 @@ h1 {
   .tagline__overhead {
     margin-bottom: 16px; }
   .tagline__title {
-    margin-bottom: 32px; }
+    color: #fff;
+    margin-bottom: 32px;
+    text-align: left; }
+    @media (max-width: 900px) {
+      .tagline__title {
+        text-align: center;
+        font-size: 26px; } }
   .tagline__text {
     font-family: "Open Sans", sans-serif;
     font-weight: normal;
@@ -2160,6 +2259,10 @@ h1 {
     line-height: 150%;
     position: relative;
     padding-left: 98px; }
+    @media (max-width: 900px) {
+      .tagline__text {
+        padding: 50px 0 0;
+        text-align: center; } }
     .tagline__text:not(:last-child) {
       margin-bottom: 64px; }
     .tagline__text::before {
@@ -2172,6 +2275,12 @@ h1 {
       border-radius: 50%;
       -webkit-transform: translateY(-50%);
               transform: translateY(-50%); }
+      @media (max-width: 900px) {
+        .tagline__text::before {
+          top: 10px;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+                  transform: translate(-50%, -50%); } }
     .tagline__text--logo-1::before {
       background: url("../images/features/features-item-icon-1.svg") center/100% no-repeat; }
     .tagline__text--logo-2::before {
@@ -2216,13 +2325,17 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.section-title__title, .tagline__title, .contacts__title {
+.section-title__title, .contacts__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
+  @media (max-width: 900px) {
+    .section-title__title, .contacts__title {
+      text-align: center;
+      font-size: 26px; } }
 
-.section-title__overhead, .tagline__overhead, .person-card__position, .contacts__subtitle {
+.section-title__overhead, .person-card__position, .contacts__subtitle {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -2264,20 +2377,40 @@ h1 {
   line-height: 22px;
   color: #fff; }
 
-.testimonials {
-  display: none; }
-  .testimonials__description {
-    margin-bottom: 85px; }
-  .testimonials__review {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    margin-bottom: 168px;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
+.testimonials__description {
+  margin-bottom: 85px; }
+  @media (max-width: 900px) {
+    .testimonials__description {
+      margin-bottom: 30px; } }
+
+.testimonials__review {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 168px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  @media (max-width: 750px) {
+    .testimonials__review {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; } }
+  @media (max-width: 900px) {
+    .testimonials__review {
+      margin-bottom: 50px;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; } }
+
+@media (max-width: 1024px) {
+  .testimonials__card:not(:last-child) {
+    margin-bottom: 30px; } }
 
 /*lists*/
 .description__text {
@@ -2316,13 +2449,17 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.section-title__title, .tagline__title, .contacts__title {
+.section-title__title, .contacts__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
+  @media (max-width: 900px) {
+    .section-title__title, .contacts__title {
+      text-align: center;
+      font-size: 26px; } }
 
-.section-title__overhead, .tagline__overhead, .person-card__position, .contacts__subtitle {
+.section-title__overhead, .person-card__position, .contacts__subtitle {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -2365,7 +2502,7 @@ h1 {
   color: #fff; }
 
 .person-card {
-  width: 314px;
+  max-width: 314px;
   padding: 87px 32px 32px;
   text-align: center;
   background: #fff;
@@ -2383,10 +2520,16 @@ h1 {
   .person-card:hover {
     -webkit-box-shadow: 0 9px 18px rgba(37, 41, 49, 0.3);
             box-shadow: 0 9px 18px rgba(37, 41, 49, 0.3); }
+  @media (max-width: 900px) {
+    .person-card {
+      padding: 40px 5px 5px; } }
   .person-card__photo {
     margin-bottom: 110px;
     position: relative;
     z-index: 1; }
+    @media (max-width: 900px) {
+      .person-card__photo {
+        margin-bottom: 60px; } }
     .person-card__photo::before, .person-card__photo::after {
       position: absolute;
       content: "";
@@ -2499,13 +2642,17 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.section-title__title, .tagline__title, .contacts__title {
+.section-title__title, .contacts__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
+  @media (max-width: 900px) {
+    .section-title__title, .contacts__title {
+      text-align: center;
+      font-size: 26px; } }
 
-.section-title__overhead, .tagline__overhead, .person-card__position, .contacts__subtitle {
+.section-title__overhead, .person-card__position, .contacts__subtitle {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -2548,7 +2695,6 @@ h1 {
   color: #fff; }
 
 .slogan {
-  display: none;
   background: #fff;
   max-width: 1600px;
   margin: 0 auto;
@@ -2561,6 +2707,9 @@ h1 {
     text-align: center;
     padding: 200px 0;
     z-index: 1; }
+    @media (max-width: 700px) {
+      .slogan__content {
+        padding: 50px 0; } }
   .slogan__title {
     margin-bottom: 25px; }
   .slogan__text {
@@ -2617,13 +2766,17 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.section-title__title, .tagline__title, .contacts__title {
+.section-title__title, .contacts__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
+  @media (max-width: 900px) {
+    .section-title__title, .contacts__title {
+      text-align: center;
+      font-size: 26px; } }
 
-.section-title__overhead, .tagline__overhead, .person-card__position, .contacts__subtitle {
+.section-title__overhead, .person-card__position, .contacts__subtitle {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -2672,7 +2825,7 @@ h1 {
   opacity: 0.5;
   border-radius: 500px;
   border: 2px solid;
-  z-index: 0;
+  z-index: -1;
   -webkit-transition: -webkit-transform 0.3s;
   transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
@@ -2692,21 +2845,37 @@ h1 {
     height: 14vh;
     max-width: 22px;
     max-height: 54px; }
+    @media (max-width: 700px) {
+      .rectangle--small {
+        max-width: 11px;
+        max-height: 27px; } }
   .rectangle--medium {
     width: 5vh;
     height: 18vh;
     max-width: 27px;
     max-height: 68px; }
+    @media (max-width: 700px) {
+      .rectangle--medium {
+        max-width: 13px;
+        max-height: 34px; } }
   .rectangle--big {
     width: 6vh;
     height: 20vh;
     max-width: 34px;
     max-height: 85px; }
+    @media (max-width: 700px) {
+      .rectangle--big {
+        max-width: 17px;
+        max-height: 40px; } }
   .rectangle--large {
     width: 7vh;
     height: 22vh;
     max-width: 60px;
     max-height: 150px; }
+    @media (max-width: 700px) {
+      .rectangle--large {
+        max-width: 30px;
+        max-height: 60px; } }
   .rectangle--pos-1 {
     top: 10%;
     left: 37%;
@@ -2793,13 +2962,17 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.section-title__title, .tagline__title, .contacts__title {
+.section-title__title, .contacts__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
+  @media (max-width: 900px) {
+    .section-title__title, .contacts__title {
+      text-align: center;
+      font-size: 26px; } }
 
-.section-title__overhead, .tagline__overhead, .person-card__position, .contacts__subtitle {
+.section-title__overhead, .person-card__position, .contacts__subtitle {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -2914,13 +3087,17 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.section-title__title, .tagline__title, .contacts__title {
+.section-title__title, .contacts__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
+  @media (max-width: 900px) {
+    .section-title__title, .contacts__title {
+      text-align: center;
+      font-size: 26px; } }
 
-.section-title__overhead, .tagline__overhead, .person-card__position, .contacts__subtitle {
+.section-title__overhead, .person-card__position, .contacts__subtitle {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -3069,13 +3246,17 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.section-title__title, .tagline__title, .contacts__title {
+.section-title__title, .contacts__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
+  @media (max-width: 900px) {
+    .section-title__title, .contacts__title {
+      text-align: center;
+      font-size: 26px; } }
 
-.section-title__overhead, .tagline__overhead, .person-card__position, .contacts__subtitle {
+.section-title__overhead, .person-card__position, .contacts__subtitle {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -3196,13 +3377,17 @@ h1 {
       -ms-flex-align: center;
           align-items: center; }
 
-.section-title__title, .tagline__title, .contacts__title {
+.section-title__title, .contacts__title {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%; }
+  @media (max-width: 900px) {
+    .section-title__title, .contacts__title {
+      text-align: center;
+      font-size: 26px; } }
 
-.section-title__overhead, .tagline__overhead, .person-card__position, .contacts__subtitle {
+.section-title__overhead, .person-card__position, .contacts__subtitle {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 13px;
