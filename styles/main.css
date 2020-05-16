@@ -88,7 +88,7 @@ h1 {
   line-height: 22px;
   color: #fff; }
 
-.form__input::placeholder {
+.form__input, .form__input::placeholder {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 15px;
@@ -228,7 +228,7 @@ h1 {
   line-height: 22px;
   color: #fff; }
 
-.form__input::placeholder {
+.form__input, .form__input::placeholder {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 15px;
@@ -336,7 +336,7 @@ h1 {
   line-height: 22px;
   color: #fff; }
 
-.form__input::placeholder {
+.form__input, .form__input::placeholder {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 15px;
@@ -451,7 +451,7 @@ h1 {
   line-height: 22px;
   color: #fff; }
 
-.form__input::placeholder {
+.form__input, .form__input::placeholder {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 15px;
@@ -627,7 +627,7 @@ h1 {
   line-height: 22px;
   color: #fff; }
 
-.form__input::placeholder {
+.form__input, .form__input::placeholder {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 15px;
@@ -788,7 +788,7 @@ h1 {
   line-height: 22px;
   color: #fff; }
 
-.form__input::placeholder {
+.form__input, .form__input::placeholder {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 15px;
@@ -896,7 +896,7 @@ h1 {
   line-height: 22px;
   color: #fff; }
 
-.form__input::placeholder {
+.form__input, .form__input::placeholder {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 15px;
@@ -1078,7 +1078,7 @@ h1 {
   line-height: 22px;
   color: #fff; }
 
-.form__input::placeholder {
+.form__input, .form__input::placeholder {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 15px;
@@ -1238,7 +1238,7 @@ h1 {
   line-height: 22px;
   color: #fff; }
 
-.form__input::placeholder {
+.form__input, .form__input::placeholder {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 15px;
@@ -1352,7 +1352,7 @@ h1 {
   line-height: 22px;
   color: #fff; }
 
-.form__input::placeholder {
+.form__input, .form__input::placeholder {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 15px;
@@ -1473,7 +1473,7 @@ h1 {
   line-height: 22px;
   color: #fff; }
 
-.form__input::placeholder {
+.form__input, .form__input::placeholder {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 15px;
@@ -1590,7 +1590,7 @@ h1 {
   line-height: 22px;
   color: #fff; }
 
-.form__input::placeholder {
+.form__input, .form__input::placeholder {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 15px;
@@ -1711,7 +1711,7 @@ h1 {
   line-height: 22px;
   color: #fff; }
 
-.form__input::placeholder {
+.form__input, .form__input::placeholder {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 15px;
@@ -1816,7 +1816,7 @@ h1 {
   line-height: 22px;
   color: #fff; }
 
-.form__input::placeholder {
+.form__input, .form__input::placeholder {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 15px;
@@ -1951,7 +1951,7 @@ h1 {
   line-height: 22px;
   color: #fff; }
 
-.form__input::placeholder {
+.form__input, .form__input::placeholder {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 15px;
@@ -2106,7 +2106,7 @@ h1 {
   line-height: 22px;
   color: #fff; }
 
-.form__input::placeholder {
+.form__input, .form__input::placeholder {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 15px;
@@ -2248,7 +2248,7 @@ h1 {
   line-height: 22px;
   color: #fff; }
 
-.form__input::placeholder {
+.form__input, .form__input::placeholder {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 15px;
@@ -2376,7 +2376,7 @@ h1 {
   line-height: 22px;
   color: #fff; }
 
-.form__input::placeholder {
+.form__input, .form__input::placeholder {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 15px;
@@ -2574,7 +2574,7 @@ h1 {
   line-height: 22px;
   color: #fff; }
 
-.form__input::placeholder {
+.form__input, .form__input::placeholder {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 15px;
@@ -2706,7 +2706,7 @@ h1 {
   line-height: 22px;
   color: #fff; }
 
-.form__input::placeholder {
+.form__input, .form__input::placeholder {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 15px;
@@ -2907,7 +2907,7 @@ h1 {
   line-height: 22px;
   color: #fff; }
 
-.form__input::placeholder {
+.form__input, .form__input::placeholder {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 15px;
@@ -3039,7 +3039,7 @@ h1 {
   line-height: 22px;
   color: #fff; }
 
-.form__input::placeholder {
+.form__input, .form__input::placeholder {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 15px;
@@ -3243,7 +3243,7 @@ h1 {
   line-height: 22px;
   color: #fff; }
 
-.form__input::placeholder {
+.form__input, .form__input::placeholder {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 15px;
@@ -3397,7 +3397,7 @@ h1 {
   line-height: 22px;
   color: #fff; }
 
-.form__input::placeholder {
+.form__input, .form__input::placeholder {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 15px;
@@ -3567,7 +3567,7 @@ h1 {
   line-height: 22px;
   color: #fff; }
 
-.form__input::placeholder {
+.form__input, .form__input::placeholder {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 15px;
@@ -3730,7 +3730,7 @@ h1 {
   line-height: 22px;
   color: #fff; }
 
-.form__input::placeholder {
+.form__input, .form__input::placeholder {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 15px;
