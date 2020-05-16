@@ -219,6 +219,9 @@ h1 {
   line-height: 22px;
   color: #fff; }
 
+html {
+  scroll-behavior: smooth; }
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
@@ -811,16 +814,24 @@ h1 {
 
 @media (max-width: 968px) {
   .nav {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     -webkit-transform: translateY(-100%);
             transform: translateY(-100%);
+    padding-top: 10px;
+    border-radius: 0 0 50px 50px;
     background: #ff9c8e;
-    z-index: 1;
-    padding-top: 10px; } }
+    z-index: 2;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s; }
+    .nav--is-active {
+      -webkit-transform: translateY(0);
+              transform: translateY(0); } }
 
 .nav__list {
   display: -webkit-box;
