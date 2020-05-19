@@ -1,5 +1,5 @@
 /*lists*/
-h1, .promo__title, .section-title__title, .services__title, .contacts__title, .section-title__overhead, .person-card__position, .contacts__subtitle, .slider__title {
+h1, .promo__title, .section-title__title, .services__title, .tagline__title, .testimonials__title, .contacts__title, .section-title__overhead, .tagline__overhead, .testimonials__overhead, .person-card__position, .contacts__subtitle, .slider__title {
   font-weight: bold; }
 
 h1, .promo__title {
@@ -7,12 +7,12 @@ h1, .promo__title {
   line-height: 68px;
   letter-spacing: -2px; }
 
-.section-title__title, .services__title, .contacts__title {
+.section-title__title, .services__title, .tagline__title, .testimonials__title, .contacts__title {
   font-size: 52px;
   line-height: 78px;
   letter-spacing: normal; }
 
-.section-title__overhead, .person-card__position, .contacts__subtitle {
+.section-title__overhead, .tagline__overhead, .testimonials__overhead, .person-card__position, .contacts__subtitle {
   font-size: 13px;
   line-height: 19px;
   letter-spacing: 3px;
@@ -801,11 +801,12 @@ body {
     max-width: 362px;
     color: #fff; }
   .tagline__overhead {
+    color: #c0cdd7;
     margin-bottom: 16px; }
   .tagline__title {
     color: #fff;
-    margin-bottom: 32px;
-    text-align: left; }
+    text-align: left;
+    margin-bottom: 32px; }
     @media (max-width: 900px) {
       .tagline__title {
         text-align: center;
@@ -853,6 +854,14 @@ body {
   @media (max-width: 900px) {
     .testimonials__description {
       margin-bottom: 30px; } }
+
+.testimonials__overhead {
+  color: #c0cdd7;
+  margin-bottom: 16px; }
+
+.testimonials__title {
+  color: #253757;
+  margin-bottom: 24px; }
 
 .testimonials__review {
   display: -webkit-box;
