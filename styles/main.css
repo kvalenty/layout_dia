@@ -200,7 +200,7 @@ body {
     position: relative;
     -webkit-transition: color 0.3s;
     transition: color 0.3s; }
-    @media (max-width: 968px) {
+    @media (max-width: 1000px) {
       .promo__callback {
         display: none; } }
     .promo__callback::after {
@@ -303,19 +303,19 @@ body {
     border-radius: 50%; }
 
 @use "../utils";
-@media (max-width: 969px) {
+@media (max-width: 1000px) {
   .header {
     width: 100%; } }
 
 .header__logo {
   margin-right: 78px; }
 
-@media (min-width: 969px) {
+@media (min-width: 1000px) {
   .header__toggle {
     display: none; } }
 
 @use "../utils";
-@media (max-width: 968px) {
+@media (max-width: 1000px) {
   .nav {
     position: fixed;
     top: 0;
@@ -332,12 +332,12 @@ body {
     transition: -webkit-transform 0.5s;
     transition: transform 0.5s;
     transition: transform 0.5s, -webkit-transform 0.5s; } }
-  @media (max-width: 968px) and (max-width: 768px) {
+  @media (max-width: 1000px) and (max-width: 768px) {
     .nav {
       left: 0;
       bottom: 0; } }
 
-@media (max-width: 968px) {
+@media (max-width: 1000px) {
     .nav--is-active {
       -webkit-transform: translateY(0);
               transform: translateY(0); } }
@@ -355,7 +355,7 @@ body {
   @media (min-width: 969px) {
     .nav__list :not(:first-child) {
       margin-left: 64px; } }
-  @media (max-width: 968px) {
+  @media (max-width: 1000px) {
     .nav__list {
       height: 100%;
       display: -webkit-box;
@@ -381,7 +381,7 @@ body {
 .nav__item--toggle {
   -ms-flex-item-align: end;
       align-self: flex-end; }
-  @media (min-width: 968px) {
+  @media (min-width: 1000px) {
     .nav__item--toggle {
       display: none; } }
 
@@ -390,8 +390,8 @@ body {
   -webkit-transition: color 0.3s;
   transition: color 0.3s; }
   .nav__link:hover {
-    color: #ff9c8e; }
-  @media (max-width: 968px) {
+    color: #008aff; }
+  @media (max-width: 1000px) {
     .nav__link {
       font-size: 25px; } }
 
