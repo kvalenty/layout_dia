@@ -1,5 +1,5 @@
 /*lists*/
-h1, .promo__title, .section-title__title, .contacts__title, .section-title__overhead, .person-card__position, .contacts__subtitle, .slider__title {
+h1, .promo__title, .section-title__title, .services__title, .contacts__title, .section-title__overhead, .person-card__position, .contacts__subtitle, .slider__title {
   font-weight: bold; }
 
 h1, .promo__title {
@@ -7,7 +7,7 @@ h1, .promo__title {
   line-height: 68px;
   letter-spacing: -2px; }
 
-.section-title__title, .contacts__title {
+.section-title__title, .services__title, .contacts__title {
   font-size: 52px;
   line-height: 78px;
   letter-spacing: normal; }
@@ -34,7 +34,7 @@ h1, .promo__title {
 .person-card__name-link {
   text-transform: none; }
 
-.promo__header, .header, .promo__content, .services__items, .processes__content {
+.promo__header, .header, .promo__content, .processes__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -538,6 +538,14 @@ body {
     margin-bottom: 64px;
     text-align: center; }
   .services__items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap; }
     @media (max-width: 750px) {
@@ -545,10 +553,7 @@ body {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
-                flex-direction: column;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center; } }
+                flex-direction: column; } }
   .services__card {
     margin-bottom: 30px; }
 
@@ -868,13 +873,13 @@ body {
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center; } }
-  @media (max-width: 900px) {
+  @media (max-width: 1040px) {
     .testimonials__review {
       margin-bottom: 50px;
       -ms-flex-pack: distribute;
           justify-content: space-around; } }
 
-@media (max-width: 1024px) {
+@media (max-width: 1040px) {
   .testimonials__card:not(:last-child) {
     margin-bottom: 30px; } }
 
