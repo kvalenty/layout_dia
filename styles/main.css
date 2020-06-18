@@ -1,5 +1,5 @@
 /*lists*/
-h1, .promo__title, .section-title__title, .services__title, .tagline__title, .testimonials__title, .contacts__title, .section-title__overhead, .tagline__overhead, .testimonials__overhead, .person-card__position, .contacts__subtitle, .slider__title {
+h1, .promo__title, .services__title, .testimonials__title, .contacts__title, .section-title__title, .tagline__title, .section-title__overhead, .tagline__overhead, .testimonials__overhead, .person-card__position, .contacts__subtitle, .slider__title {
   font-weight: bold; }
 
 h1, .promo__title {
@@ -7,8 +7,13 @@ h1, .promo__title {
   line-height: 68px;
   letter-spacing: -2px; }
 
-.section-title__title, .services__title, .tagline__title, .testimonials__title, .contacts__title {
+.services__title, .testimonials__title, .contacts__title {
   font-size: 52px;
+  line-height: 78px;
+  letter-spacing: normal; }
+
+.section-title__title, .tagline__title {
+  font-size: 32px;
   line-height: 78px;
   letter-spacing: normal; }
 
@@ -300,14 +305,27 @@ body {
     line-height: 1.4;
     letter-spacing: normal; }
   .slider__arrows {
-    margin-right: 24px; }
+    margin-right: 24px;
+    min-width: 70px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
   .slider__btn {
     width: 32px;
     height: 32px;
-    -o-object-fit: contain;
-       object-fit: contain;
-    border: 1px solid #fff;
-    border-radius: 50%; }
+    -o-object-fit: cover;
+       object-fit: cover;
+    border: none;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s; }
+    .slider__btn:hover {
+      -webkit-transform: scale(1.2);
+              transform: scale(1.2); }
 
 @use "../utils";
 @media (max-width: 1000px) {
@@ -397,7 +415,7 @@ body {
   -webkit-transition: color 0.3s;
   transition: color 0.3s; }
   .nav__link:hover {
-    color: #008aff; }
+    color: #ff9c8e; }
   @media (max-width: 1000px) {
     .nav__link {
       font-size: 25px; } }
@@ -484,6 +502,8 @@ body {
     background-color: #eee; }
   .button:hover {
     color: #ff9c8e; }
+  .button:focus {
+    outline: none; }
 
 @use "../utils";
 .description {
@@ -792,7 +812,6 @@ body {
     position: absolute;
     bottom: 0;
     right: 0;
-    max-width: 40%;
     border-radius: 200px 0 0;
     overflow: hidden; }
     @media (max-width: 1024px) {
@@ -800,8 +819,10 @@ body {
         display: none; } }
   .tagline__image {
     display: block;
-    max-width: 100%;
+    max-width: 680px;
     max-height: 680px;
+    width: 45vw;
+    height: 50vw;
     -o-object-fit: cover;
        object-fit: cover; }
   .tagline__content {
@@ -815,7 +836,7 @@ body {
     max-width: 362px;
     color: #fff; }
   .tagline__overhead {
-    color: #c0cdd7;
+    color: #fff;
     margin-bottom: 16px; }
   .tagline__title {
     color: #fff;
